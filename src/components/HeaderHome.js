@@ -339,7 +339,7 @@ const HeaderHome = () => {
           }}
           className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
             <AiOutlineSearch size={40} />
-            <h2 className="font-Poppins font-bold text-lg sm:text-3xl">
+            <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Research Project
             </h2>
             <p className="font-mono text-center pt-2 font-semibold">
@@ -365,7 +365,7 @@ const HeaderHome = () => {
           }}
           className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
             <AiOutlineBulb size={40} />
-            <h2 className="font-Poppins font-bold text-lg sm:text-3xl">
+            <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Finding Solutions
             </h2>
             <p className="font-mono text-center pt-2 font-semibold">
@@ -391,7 +391,7 @@ const HeaderHome = () => {
           }}
           className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
             <AiOutlineSketch size={40} />
-            <h2 className="font-Poppins font-bold text-lg sm:text-3xl">
+            <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Build & Deliver
             </h2>
             <p className="font-mono text-center pt-2 font-semibold">
