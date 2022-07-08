@@ -119,19 +119,19 @@ const HeaderHome = () => {
               not only develop products but we develop relationships. We at
               Algorizon believe in teamwork.
             </p>
-            <p className="flex mt-3 text-sm sm:text-lg font-sans font-semibold">
+            <p className="flex mt-3 items-center text-sm sm:text-lg font-sans font-semibold">
               <BiCheck size={25} color="purple" className="mr-3 " /> We are
               completely legal entity.
             </p>
-            <p className="flex mt-3 text-sm sm:text-lg font-sans font-semibold">
+            <p className="flex mt-3 items-center text-sm sm:text-lg font-sans font-semibold">
               <BiCheck size={25} color="purple" className="mr-3 " /> We have in
               house developers and designers.
             </p>
-            <p className="flex mt-3 text-sm sm:text-lg font-sans font-semibold">
+            <p className="flex mt-3 items-center text-sm sm:text-lg font-sans font-semibold">
               <BiCheck size={25} color="purple" className="mr-3 " /> Unique
               Marketing strategies & Digital marketing team.
             </p>
-            <p className="flex mt-3 text-sm sm:text-lg font-sans font-semibold">
+            <p className="flex mt-3 items-center text-sm sm:text-lg font-sans font-semibold">
               <BiCheck size={25} color="purple" className="mr-3 " /> Latest
               Technology for your business .
             </p>

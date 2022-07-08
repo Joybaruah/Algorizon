@@ -23,15 +23,31 @@ const Navbar = () => {
         <BiMenuAltRight size={30}  onClick={handleClick} />
       </div>
 
-      <div
+      <motion.div
+      initial={{
+        x: 50
+      }}
+      whileInView={{
+        x: 0
+      }}
         className={`${
           active ? "block" : "hidden"
-        } backdrop-blur-sm absolute w-[100vw] h-[100vh] fixed`}
+        } backdrop-blur-md w-[100vw] h-[100vh] fixed`}
       >
-        <div className="flex sm:hidden justify-end w-full fixed">
+        <motion.div 
+        initial={{
+          y: -20
+        }}
+        transition={{
+          type: 'spring',
+        }}
+        whileInView={{
+          y: 0
+        }}
+        className="flex sm:hidden justify-end w-full fixed">
           <GrClose size={25} className="m-3" onClick={handleClick} />
-        </div>
-        <ul className="flex ml-3 gap-4 mt-4 flex-col">
+        </motion.div>
+        <ul className="flex pl-3 gap-4 mt-4 flex-col">
           <Link to={"/"} className="font-Poppins font-semibold mt-6">
             HOME
           </Link>
@@ -42,11 +58,11 @@ const Navbar = () => {
           <li className="font-Poppins font-semibold">PRODUCTS</li>
           <li className="font-Poppins font-semibold">CONTACT</li>
         </ul>
-      </div>
+      </motion.div>
 
       <motion.nav className="hidden sm:flex justify-end ">
         <div className="fixed">
-          <ul className="flex gap-4 mt-3 flex-row bg-violet-500/30 py-4 px-5">
+          <ul className="flex gap-4 flex-row bg-violet-500/30 py-4 px-5">
             <Link
               to={"/"}
               className="font-Poppins font-semibold cursor-pointer"
