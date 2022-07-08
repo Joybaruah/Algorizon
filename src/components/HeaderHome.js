@@ -42,7 +42,7 @@ const HeaderHome = () => {
           }}
           transition={{
             type: 'tween',
-            delay: 1
+            delay: 0.2
           }}
           whileInView={{
             opacity: 1,
@@ -60,7 +60,7 @@ const HeaderHome = () => {
           }}
           transition={{
             type: 'tween',
-            delay: 1
+            delay: 0.5
           }}
           whileInView={{
             opacity: 1,
@@ -81,7 +81,7 @@ const HeaderHome = () => {
         }}
         transition={{
           type: 'tween',
-          delay: 1
+          delay: 0.5
         }}
         whileInView={{
           opacity: 1,
@@ -97,7 +97,7 @@ const HeaderHome = () => {
       <motion.div
       initial={{
         opacity: 0,
-        y: 20
+        y: 10
       }}
       transition={{
         type: 'tween',
