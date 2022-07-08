@@ -54,9 +54,9 @@ const Navbar = () => {
           <Link to={"/company"} className="font-Poppins font-semibold">
             COMPANY PROFILE
           </Link>
-          <li className="font-Poppins font-semibold">SERVICES</li>
-          <li className="font-Poppins font-semibold">PRODUCTS</li>
-          <li className="font-Poppins font-semibold">CONTACT</li>
+          <Link to={"/services"} className="font-Poppins font-semibold">SERVICES</Link>
+          <Link to={"/products"} className="font-Poppins font-semibold">PRODUCTS</Link>
+          <Link to={"contact"} className="font-Poppins font-semibold">CONTACT</Link>
         </ul>
       </motion.div>
 
@@ -75,15 +75,15 @@ const Navbar = () => {
             >
               COMPANY PROFILE
             </Link>
-            <li className="font-Poppins font-semibold cursor-pointer">
+            <Link to={"/services"} className="font-Poppins font-semibold cursor-pointer">
               SERVICES
-            </li>
-            <li className="font-Poppins font-semibold cursor-pointer">
+            </Link>
+            <Link to={"/products"} className="font-Poppins font-semibold cursor-pointer">
               PRODUCTS
-            </li>
-            <li className="font-Poppins font-semibold cursor-pointer">
+            </Link>
+            <Link to={"contact"} className="font-Poppins font-semibold cursor-pointer">
               CONTACT
-            </li>
+            </Link>
           </ul>
         </div>
       </motion.nav>
