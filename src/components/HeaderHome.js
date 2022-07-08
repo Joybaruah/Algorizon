@@ -64,8 +64,8 @@ const HeaderHome = () => {
             We provide Web Development, Graphic Designing, <br /> Digital
             Marketing and much more.
           </motion.p>
-        </div>
-        <motion.button
+
+          <motion.button
         initial={{
           opacity: 0,
           y: 20
@@ -81,9 +81,11 @@ const HeaderHome = () => {
           opacity: 1,
           y: 0
         }}
-        className="mx-4 mt-4 sm:mt-3 sm:ml-24 md:ml-40 lg:ml-52 px-4 py-2 sm:px-4 bg-purple-600/40 hover:bg-purple-500 rounded-sm font-semibold text-sm sm:text-lg font-Poppins">
+        className="mt-4 sm:mt-3 py-2 px-4 w-fit bg-purple-600/40 hover:bg-purple-500 rounded-sm font-semibold text-sm sm:text-lg font-Poppins">
           Get in Touch
         </motion.button>
+        </div>
+        
       </div>
 
       <motion.div
@@ -139,10 +141,10 @@ const HeaderHome = () => {
 
       <div className="bg-purple-50">
         <div className="sm:mx-16 md:mx-24 lg:mx-40">
-          <h1 className="p-3 pt-12 pb-5 font-bold font-Poppins text-lg text-center sm:text-3xl text-gray-800">
+          <h1 className="p-3 pt-12 font-bold font-Poppins text-lg text-center sm:text-3xl text-gray-800">
             We provide you with high quality technology services
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 py-5">
             <motion.div 
             initial={{
               scale: 0.9,
@@ -306,7 +308,7 @@ const HeaderHome = () => {
         </div>
       </div>
 
-      <div className="bg-violet-100 py-5">
+      <div className="bg-violet-100 py-8 ">
         <div className="bg-violet-700/80 sm:mx-16 md:mx-24 lg:mx-40 shadow-md">
           <div className="flex justify-center flex-col items-center py-2 ">
             <h2 className="text-white py-2 font-RedHat font-semibold">
@@ -337,7 +339,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 items-center shadow-md bg-gray-700/20 py-12 px-8">
             <AiOutlineSearch size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Research Project
@@ -363,7 +365,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 items-center shadow-md bg-gray-700/20 py-12 px-8">
             <AiOutlineBulb size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Finding Solutions
@@ -389,7 +391,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 items-center shadow-md bg-gray-700/20 py-12 px-8">
             <AiOutlineSketch size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Build & Deliver
@@ -434,7 +436,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <FaSchool size={40} />
             <h2 className="font-Poppins font-bold text-center text-lg sm:text-2xl">
             School Management System
@@ -457,7 +459,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <FaHome size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-2xl">
             Resort Booking System
@@ -480,7 +482,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <FaBus size={40} />
             <h2 className="font-Poppins font-bold text-lg sm:text-2xl">
             Bus Booking System
@@ -503,7 +505,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <FaHotel size={40} />
             <h2 className="font-Poppins font-bold text-center text-lg sm:text-2xl">
             Hotel Booking System
@@ -526,7 +528,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <FaCamera size={40} />
             <h2 className="font-Poppins font-bold text-center text-lg sm:text-2xl">
             Travel Management System
@@ -549,7 +551,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <BsCameraReels size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-2xl">
             Movie Ticket Booking System
