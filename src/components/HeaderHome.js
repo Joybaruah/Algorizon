@@ -165,7 +165,7 @@ const HeaderHome = () => {
               <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
                 Web Development
               </h1>
-              <p className="px-2 font-RedHat font-semibold pb-2">
+              <p className="px-3 font-RedHat font-semibold pb-2">
                 We are dedicated and has successfully build
                 websites over these years with maximum client satisfaction.
               </p>
@@ -191,7 +191,7 @@ const HeaderHome = () => {
               <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
                 Design Services
               </h1>
-              <p className="px-2 font-RedHat font-semibold pb-2">
+              <p className="px-3 font-RedHat font-semibold pb-2">
                 Algorizon Technologies has successfully rejuvenated the brand
                 identity of many businesses by handling a number of designing
                 projects for clients.
@@ -218,7 +218,7 @@ const HeaderHome = () => {
               <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
                 Digital Marketing
               </h1>
-              <p className="px-2 font-RedHat font-semibold pb-2">
+              <p className="px-3 font-RedHat font-semibold pb-2">
                 With us you can acts as a partner with whom you can
                 collaborate to take effective advantage of new marketing
                 opportunities over a wide range of digital marketing platforms.
@@ -245,7 +245,7 @@ const HeaderHome = () => {
               <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
                 Mobile App Development
               </h1>
-              <p className="px-2 font-RedHat font-semibold pb-2">
+              <p className="px-3 font-RedHat font-semibold pb-2">
                 At Algorizon Technologies, we have the best and brightest minds
                 to present our clients the most cutting edge technology.
               </p>
@@ -271,7 +271,7 @@ const HeaderHome = () => {
               <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
                 E-Commerce Development
               </h1>
-              <p className="px-2 font-RedHat font-semibold pb-2">
+              <p className="px-3 font-RedHat font-semibold pb-2">
                 We have a understanding and experience of
                 designing e-commerce websites for its clients that includes
                 relevant use of SEO and effective marketing strategies.
