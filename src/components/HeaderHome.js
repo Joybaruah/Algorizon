@@ -10,7 +10,7 @@ const HeaderHome = () => {
   return (
     <>
       <div className="bg-gradient-to-r from-purple-300 via-purple-200 to-purple-100 h-[100vh] shadow-sm">
-        <div className="flex flex-col mx-4 sm:ml-24 md:ml-40 lg:ml-52 pt-24 sm:pt-28 md:pt-40 lg:pt-52">
+        <div className="flex flex-col justify-center mx-4 sm:ml-24 md:ml-40 lg:ml-52 h-[100vh]">
           <motion.h2
           initial={{
             y: -50,
@@ -26,7 +26,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="font-RedHat font-semibold sm:text-3xl">Welcome to</motion.h2>
+          className="font-RedHat font-semibold text-lg sm:text-3xl">Welcome to</motion.h2>
           <motion.h1
           initial={{
             opacity: 0,
@@ -41,7 +41,7 @@ const HeaderHome = () => {
           whileInView={{
             opacity: 1,
           }}
-          className="font-Poppins text-2xl text-red-600 font-extrabold sm:text-6xl">
+          className="font-Poppins text-4xl text-red-600 font-extrabold sm:text-6xl">
             Algorizon
           </motion.h1>
           <motion.p 

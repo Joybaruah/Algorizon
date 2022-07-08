@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <h2 className="sm:mx-16 md:mx-24 lg:mx-40 font-Poppins text-white mt-2">
+        <h2 className="mx-2 sm:mx-16 md:mx-24 lg:mx-40 font-Poppins text-sm text-white mt-2">
           © Algorizon Technologies. All Rights Reserved
           </h2>
       </div>
