@@ -495,7 +495,7 @@ const HeaderHome = () => {
           }}
           className="flex flex-col gap-4 shadow-sm items-center bg-gray-700/20 py-12 px-8">
             <FaBus size={40} />
-            <h2 className="font-Poppins font-bold text-lg sm:text-2xl">
+            <h2 className="font-Poppins text-center font-bold text-lg sm:text-2xl">
             Bus Booking System
             </h2>
           </motion.div>
