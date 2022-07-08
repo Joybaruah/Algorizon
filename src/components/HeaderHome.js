@@ -5,6 +5,12 @@ import why from "../assets/img/why.jpg";
 import { motion} from "framer-motion"
 import { FaSchool, FaHome, FaBus, FaHotel, FaCamera } from "react-icons/fa"
 import { BsCameraReels } from "react-icons/bs"
+import web from "../assets/icons/web.png"
+import design from "../assets/icons/design.png"
+import digital from "../assets/icons/digital.png"
+import app from "../assets/icons/app.png"
+import eco from "../assets/icons/eco.png"
+import social from "../assets/icons/social.png"
  
 const HeaderHome = () => {
   return (
@@ -161,11 +167,12 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 back bg-violet-500/20 rounded-sm shadow-md">
-              <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
+            className="m-2 py-8 hover:translate-x-20 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+              <img src={web} alt='web' className="w-[30%]" />
+              <h1 className=" font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Web Development
               </h1>
-              <p className="px-3 font-RedHat font-semibold pb-2">
+              <p className="font-RedHat text-center font-semibold px-5">
                 We are dedicated and has successfully build
                 websites over these years with maximum client satisfaction.
               </p>
@@ -187,12 +194,13 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 back bg-violet-500/20 rounded-sm shadow-md">
-              <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
+            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+              <img src={design} alt='design' className="w-[30%]" />
+              <h1 className="font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Design Services
               </h1>
-              <p className="px-3 font-RedHat font-semibold pb-2">
-                Algorizon Technologies has successfully rejuvenated the brand
+              <p className="font-RedHat text-center font-semibold px-5">
+                We have successfully rejuvenated the brand
                 identity of many businesses by handling a number of designing
                 projects for clients.
               </p>
@@ -214,13 +222,13 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 back bg-violet-500/20 rounded-sm shadow-md">
-              <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
+            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+              <img src={digital} alt='digital' className="w-[30%]" />
+              <h1 className="font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Digital Marketing
               </h1>
-              <p className="px-3 font-RedHat font-semibold pb-2">
-                With us you can acts as a partner with whom you can
-                collaborate to take effective advantage of new marketing
+              <p className="px-5 font-RedHat text-center font-semibold ">
+                Collaborate with us to take effective advantage of new marketing
                 opportunities over a wide range of digital marketing platforms.
               </p>
             </motion.div>
@@ -241,11 +249,12 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 back bg-violet-500/20 rounded-sm shadow-md">
-              <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
+            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+              <img src={app} alt='app' className="w-[30%]" />
+              <h1 className="p-3 font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Mobile App Development
               </h1>
-              <p className="px-3 font-RedHat font-semibold pb-2">
+              <p className="px-5 font-RedHat text-center font-semibold">
                 At Algorizon Technologies, we have the best and brightest minds
                 to present our clients the most cutting edge technology.
               </p>
@@ -267,11 +276,12 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 back bg-violet-500/20 rounded-sm shadow-md">
-              <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
+            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+              <img src={eco} alt='ecommerce' className="w-[30%]" />
+              <h1 className="p-3 font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 E-Commerce Development
               </h1>
-              <p className="px-3 font-RedHat font-semibold pb-2">
+              <p className="px-5 font-RedHat text-center font-semibold">
                 We have a understanding and experience of
                 designing e-commerce websites for its clients that includes
                 relevant use of SEO and effective marketing strategies.
@@ -294,11 +304,12 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 back bg-violet-500/20 rounded-sm shadow-md">
-              <h1 className="p-3 font-Poppins text-lg font-bold text-[#8A39E1] ">
+            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+              <img src={social} alt='social' className="w-[30%]" />
+              <h1 className="p-3 font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Social Media Marketing
               </h1>
-              <p className="px-3 font-RedHat font-semibold pb-2">
+              <p className="px-5 font-RedHat text-center font-semibold">
                 We have an experienced team who gives their
                 best in delivering effective response from various social media
                 channels of clients
