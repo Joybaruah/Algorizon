@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BiCheck } from "react-icons/bi";
 import { AiOutlineSearch, AiOutlineBulb, AiOutlineSketch } from "react-icons/ai";
 import why from "../assets/img/why.jpg";
@@ -11,8 +11,20 @@ import digital from "../assets/icons/digital.png"
 import app from "../assets/icons/app.png"
 import eco from "../assets/icons/eco.png"
 import social from "../assets/icons/social.png"
+import { useLocation } from "react-router-dom";
  
 const HeaderHome = () => {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [pathname])
+  
+
   return (
     <>
       <div className="bg-gradient-to-r from-purple-300 via-purple-200 to-purple-100 h-[100vh] shadow-sm">

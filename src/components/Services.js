@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { motion} from "framer-motion"
 import web from "../assets/icons/web.png"
 import design from "../assets/icons/design.png"
@@ -6,8 +6,19 @@ import digital from "../assets/icons/digital.png"
 import app from "../assets/icons/app.png"
 import eco from "../assets/icons/eco.png"
 import social from "../assets/icons/social.png"
+import { useLocation } from 'react-router-dom'
 
 const Services = () => {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }, [pathname])
+
   return (
     <>
       <div className="bg-gradient-to-r from-purple-300 via-purple-200 to-purple-100 h-[60vh] lg:h-[50vh] shadow-sm">
