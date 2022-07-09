@@ -56,11 +56,11 @@ const Company = () => {
           <img src={about} alt="IMG" className="my-5 px-2" />
 
           <div>
-            <h2 className=" font-Poppins font-bold mx-2 text-lg sm:text-5xl text-gray-800 my-5">
+            <h2 className=" font-Poppins font-bold mx-4 text-lg sm:text-5xl text-gray-800 my-5">
               Algorizon Technologies - About us
             </h2>
             <hr className="w-[30%] mb-3" />
-            <p className="font-RedHat text-gray-600 mx-2 font-semibold mt-2 text-md sm:text-lg text-justify">
+            <p className="font-RedHat text-gray-600 mx-4 font-semibold mt-2 text-md sm:text-lg text-justify">
               Algorizon Technologies is a leading solution provider for all
               internet based applications. Established in the year 2015,
               Algorizon Technologies has a team of experienced and skilled
@@ -84,10 +84,10 @@ const Company = () => {
 
       <motion.div className="max-w-5xl mx-auto my-3">
         <div className="px-2">
-          <h2 className="text-2xl font-Poppins text-violet-700 font-bold ">
+          <h2 className="text-2xl mx-2 font-Poppins text-violet-700 font-bold ">
             Location & Contact
           </h2>
-          <div>
+          <div className="mx-2">
             <p className="py-2 font-RedHat font-semibold">
               Kahilipara Main Rd, Jatia, Kahilipara, Guwahati, Assam 781019
             </p>
