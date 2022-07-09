@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex sm:hidden justify-end bg-violet-500/60 w-full fixed p-2">
+      <div className="flex sm:hidden justify-end bg-violet-700/50 w-full fixed p-2">
         <BiMenuAltRight size={30}  onClick={handleClick} />
       </div>
 
@@ -47,22 +47,22 @@ const Navbar = () => {
         className="flex sm:hidden justify-end w-full fixed">
           <GrClose size={25} className="m-3" onClick={handleClick} />
         </motion.div>
-        <ul className="flex pl-3 gap-4 mt-4 flex-col">
-          <Link to={"/"} className="font-Poppins font-semibold mt-6">
+        <ul className="flex pl-3 gap-4 h-[100vh] my-20 flex-col">
+          <Link to={"/"} className="font-Poppins text-lg font-semibold mt-6">
             HOME
           </Link>
-          <Link to={"/company"} className="font-Poppins font-semibold">
+          <Link to={"/company"} className="font-Poppins text-lg font-semibold">
             COMPANY PROFILE
           </Link>
-          <Link to={"/services"} className="font-Poppins font-semibold">SERVICES</Link>
-          <Link to={"/products"} className="font-Poppins font-semibold">PRODUCTS</Link>
-          <Link to={"contact"} className="font-Poppins font-semibold">CONTACT</Link>
+          <Link to={"/services"} className="font-Poppins text-lg font-semibold">SERVICES</Link>
+          <Link to={"/products"} className="font-Poppins text-lg font-semibold">PRODUCTS</Link>
+          <Link to={"contact"} className="font-Poppins text-lg font-semibold">CONTACT</Link>
         </ul>
       </motion.div>
 
       <motion.nav className="hidden sm:flex justify-end ">
         <div className="fixed">
-          <ul className="flex gap-4 flex-row bg-violet-500/30 py-4 px-5 mt-2">
+          <ul className="flex gap-4 flex-row bg-violet-700/50 py-4 px-5 mt-2">
             <Link
               to={"/"}
               className="font-Poppins font-semibold cursor-pointer"
