@@ -62,7 +62,7 @@ const Navbar = () => {
 
       <motion.nav className="hidden sm:flex justify-end ">
         <div className="fixed">
-          <ul className="flex gap-4 flex-row bg-violet-700/50 py-4 px-5 mt-2">
+          <ul className="flex gap-4 flex-row bg-purple-400 py-4 px-5 mt-2">
             <Link
               to={"/"}
               className="font-Poppins font-semibold cursor-pointer"
