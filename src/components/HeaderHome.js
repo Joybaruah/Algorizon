@@ -355,7 +355,7 @@ const HeaderHome = () => {
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Research Project
             </h2>
-            <p className="font-mono text-center pt-2 font-semibold">
+            <p className="font-RedHat text-center pt-2 font-semibold">
             Before starting out your project, our expert staffs will research on your requirements and work on it.
             </p>
           </motion.div>
@@ -381,7 +381,7 @@ const HeaderHome = () => {
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Finding Solutions
             </h2>
-            <p className="font-mono text-center pt-2 font-semibold">
+            <p className="font-RedHat text-center pt-2 font-semibold">
             Once a project completes the research stage, we find solutions to tackle all the problems we found. 
             </p>
           </motion.div>
@@ -407,7 +407,7 @@ const HeaderHome = () => {
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Build & Deliver
             </h2>
-            <p className="font-mono text-center pt-2 font-semibold">
+            <p className="font-RedHat text-center pt-2 font-semibold">
             And lasty we start building your project and deliver what you asked for.
             </p>
           </motion.div>
