@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="flex sm:hidden justify-end bg-[#C5A8F9] w-full fixed p-2">
+      <div className="flex sm:hidden justify-end bg-[#fff] w-full fixed p-2">
         <BiMenuAltRight size={30}  onClick={handleClick} />
       </div>
 
@@ -62,7 +62,7 @@ const Navbar = () => {
 
       <motion.nav className="hidden sm:flex justify-end ">
         <div className="fixed">
-          <ul className="flex gap-4 flex-row bg-[#C5A8F9] py-4 px-5 mt-2">
+          <ul className="flex gap-4 flex-row bg-[#fff] border-t-2 border-zinc-700 py-4 px-5 mt-2">
             <Link
               to={"/"}
               className="font-Poppins font-semibold cursor-pointer"
