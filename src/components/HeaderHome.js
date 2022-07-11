@@ -27,7 +27,7 @@ const HeaderHome = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-r from-purple-300 via-purple-200 to-purple-100 h-[100vh] shadow-sm">
+      <div className="bg-[#f7f7f7] h-[100vh] shadow-sm">
         <div className="flex flex-col justify-center mx-4 sm:ml-24 md:ml-40 lg:ml-52 h-[100vh]">
           <motion.h2
           initial={{
@@ -99,7 +99,7 @@ const HeaderHome = () => {
           opacity: 1,
           y: 0
         }}
-        className="mt-4 sm:mt-3 py-2 px-4 w-fit bg-purple-600/40 hover:bg-purple-500 rounded-sm font-semibold text-sm sm:text-lg font-Poppins">
+        className="mt-4 sm:mt-3 py-2 px-4 w-fit shadow-lg bg-[#E0FB6E] border-2 border-[#000] hover:bg-[#e3ff68] rounded-sm font-semibold text-sm sm:text-lg font-Poppins">
           Get in Touch
         </motion.button>
         </div>
@@ -157,7 +157,7 @@ const HeaderHome = () => {
         </div>
       </motion.div>
 
-      <div className="bg-purple-50">
+      <div className="bg-slate-100">
         <div className="sm:mx-16 md:mx-24 lg:mx-40">
           <h1 className="p-3 pt-12 font-bold font-Poppins text-lg text-center sm:text-3xl text-gray-800">
             We provide you with high quality technology services
@@ -179,7 +179,7 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 py-8 hover:translate-x-20 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+            className="m-2 py-8 hover:translate-x-20 back gap-3 bg-[#fff] border-t-4 border-[#C5A8F9] rounded-sm shadow-sm flex flex-col items-center">
               <img src={web} alt='web' className="w-[30%]" />
               <h1 className=" font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Web Development
@@ -204,9 +204,9 @@ const HeaderHome = () => {
             }}
             whileInView={{
               scale: 1,
-              opacity: 1
+              opacity: 1 
             }}
-            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+            className="m-2 py-8 back gap-3 bg-[#fff] border-t-4 border-[#C5A8F9] rounded-sm shadow-sm flex flex-col items-center">
               <img src={design} alt='design' className="w-[30%]" />
               <h1 className="font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Design Services
@@ -234,7 +234,7 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+            className="m-2 py-8 back gap-3 bg-[#fff] border-t-4 border-[#C5A8F9] rounded-sm shadow-sm flex flex-col items-center">
               <img src={digital} alt='digital' className="w-[30%]" />
               <h1 className="font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Digital Marketing
@@ -261,7 +261,7 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+            className="m-2 py-8 back gap-3 bg-[#fff] border-t-4 border-[#C5A8F9] rounded-sm shadow-sm flex flex-col items-center">
               <img src={app} alt='app' className="w-[30%]" />
               <h1 className="p-3 font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Mobile App Development
@@ -288,7 +288,7 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+            className="m-2 py-8 back gap-3 bg-[#fff] border-t-4 border-[#C5A8F9] rounded-sm shadow-sm flex flex-col items-center">
               <img src={eco} alt='ecommerce' className="w-[30%]" />
               <h1 className="p-3 font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 E-Commerce Development
@@ -316,7 +316,7 @@ const HeaderHome = () => {
               scale: 1,
               opacity: 1
             }}
-            className="m-2 py-8 back gap-3 bg-violet-500/20 rounded-sm shadow-md flex flex-col items-center">
+            className="m-2 py-8 back gap-3 bg-[#fff] border-t-4 border-[#C5A8F9] rounded-sm shadow-sm flex flex-col items-center">
               <img src={social} alt='social' className="w-[30%]" />
               <h1 className="p-3 font-Poppins text-center text-lg font-bold text-[#8A39E1] ">
                 Social Media Marketing
@@ -331,13 +331,13 @@ const HeaderHome = () => {
         </div>
       </div>
 
-      <div className="bg-violet-100 py-8 ">
-        <div className="bg-violet-700/80 sm:mx-16 md:mx-24 lg:mx-40 shadow-md">
+      <div className="bg-neutral-200-100 py-8 ">
+        <div className="bg-[#9BD7FB] sm:mx-16 md:mx-24 lg:mx-40 shadow-md">
           <div className="flex justify-center flex-col items-center py-2 ">
-            <h2 className="text-white py-2 font-RedHat font-semibold">
+            <h2 className="text-black py-2 font-RedHat font-semibold">
               HOW WE WORK
             </h2>
-            <p className="text-2xl text-center font-bold text-white sm:text-4xl font-Poppins pb-4">
+            <p className="text-2xl text-center font-bold text-black sm:text-4xl font-Poppins pb-4">
               Stages Of Our Working Process
             </p>
           </div>
@@ -362,7 +362,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center shadow-md bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 items-center shadow-md bg-white border-t-4 border-black py-12 px-8">
             <AiOutlineSearch size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Research Project
@@ -388,7 +388,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center shadow-md bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 items-center shadow-md bg-white border-t-4 border-black py-12 px-8">
             <AiOutlineBulb size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Finding Solutions
@@ -414,7 +414,7 @@ const HeaderHome = () => {
             y: 0,
             opacity: 1
           }}
-          className="flex flex-col gap-4 items-center shadow-md bg-gray-700/20 py-12 px-8">
+          className="flex flex-col gap-4 items-center shadow-md bg-white border-t-4 border-black py-12 px-8">
             <AiOutlineSketch size={40} />
             <h2 className="font-Poppins text-center font-bold text-lg sm:text-3xl">
             Build & Deliver
@@ -428,13 +428,13 @@ const HeaderHome = () => {
       </div>
 
 
-      <div className="py-5">
-        <div className="bg-purple-600/80 sm:mx-16 md:mx-24 lg:mx-40 shadow-md">
+      <div className="py-5 bg-[#f7f7f7]">
+        <div className="bg-[#7ccdff] sm:mx-16 md:mx-24 lg:mx-40 shadow-md">
           <div className="flex justify-center flex-col items-center py-2 ">
-            <h2 className="text-white py-2 font-RedHat font-semibold">
+            <h2 className="text-black py-2 font-RedHat font-semibold">
               OUR PRODUCTS
             </h2>
-            <p className="text-2xl text-center font-bold text-white sm:text-4xl font-Poppins pb-4">
+            <p className="text-2xl text-center font-bold text-black sm:text-4xl font-Poppins pb-4">
             Check out our quality products
             </p>
           </div>

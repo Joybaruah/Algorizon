@@ -6,7 +6,7 @@ import { ImLocation, ImPhone } from "react-icons/im";
 const Footer = () => {
   return (
     <>
-      <div className="bg-purple-800 py-12">
+      <div className="bg-slate-800 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-3 mx-2 gap-10 sm:mx-16 md:mx-24 lg:mx-40">
           <div>
             <h2 className="font-Poppins text-2xl text-white font-bold">
